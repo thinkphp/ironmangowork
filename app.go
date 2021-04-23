@@ -18,10 +18,11 @@ func getPort() string {
 func main() {
 
     http.HandleFunc("/", handler)
+
     http.ListenAndServe(getPort(), nil)
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
 
-     fmt.Fprintf(w, "Hello World!")
+     fmt.Fprintf(w, "First Web App with Go!")
 }

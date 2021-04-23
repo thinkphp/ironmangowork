@@ -24,5 +24,5 @@ func main() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 
-     fmt.Fprintf(w, "First Web App with Go!")
+     fmt.Fprintf(w, "<h1 style='font-size: 80px;background-color: yellow;color: mediumseagreen'>First App Chelner in Romania with Go! stay tuned koi!</h1><p>Created with Passion by Adrian Statescu</p>")
 }

@@ -1,1 +1,1 @@
-## Go App Web hosted on Heroku
+Go App Web hosted on Heroku

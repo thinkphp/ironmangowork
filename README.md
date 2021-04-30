@@ -1,4 +1,6 @@
 Go App Web hosted on Heroku
 
-* >>> go run app.go ( Go to: http://localhost:80 )
-* >>> heroku local  ( Go to: http://localhost:5000 )
+In terminal:
+
+* oen@ironamn: go run app.go    ( Go to: http://localhost:8080 )
+* oen@ironamn: heroku local web ( Go to: http://localhost:5000 )
